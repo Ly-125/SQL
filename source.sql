@@ -4,7 +4,7 @@ use test;
 create table dept(
 DEPTON int primary key,
 DNAME varchar(10) not null,
-LOC varchar(10) not null)
+LOC varchar(10) not null);
 
 insert into dept values 
 ('10','ACCOUNTING','NEW YORK'),
