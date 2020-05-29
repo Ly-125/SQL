@@ -2,7 +2,7 @@ create database test;
 use test;
 
 create table dept(
-DEPTON int primary key,
+DEPTNO int primary key,
 DNAME varchar(10) not null,
 LOC varchar(10) not null);
 
